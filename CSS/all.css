@@ -1,4 +1,44 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Open+Sans:400,700';
+#posts .post {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#posts .post .post-header {
+  font-size: 36px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#posts .post .post-sub-header {
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+#posts .post .post-content {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  margin: 10px;
+}
+
+#posts .post .left {
+  position: relative;
+  right: 12px;
+  margin-left: 17px;
+  margin-top: 25px;
+}
+
+#posts .post .right {
+  position: relative;
+  left: 5px;
+  bottom: 5px;
+  top: 8px;
+}
+
 * {
   margin: 0;
 }
