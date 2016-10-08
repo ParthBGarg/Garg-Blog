@@ -78,3 +78,31 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 72px;
 }
+
+#about h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+#about .face {
+  background: url(/Images/face.jpg) 50% 50% no-repeat;
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 auto;
+  -webkit-filter: brightness(170%);
+          filter: brightness(170%);
+}
+
+#about p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 2em;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+}
