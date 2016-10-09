@@ -23,6 +23,7 @@
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
   margin: 10px;
+  line-height: 2em;
 }
 
 #posts .post .left {
@@ -37,6 +38,73 @@
   left: 5px;
   bottom: 5px;
   top: 8px;
+}
+
+#contact {
+  margin-top: 100px;
+}
+
+#contact form {
+  max-width: 450px;
+  margin: 0 auto 50px;
+}
+
+#contact form input, #contact form textarea[type="text"] {
+  font-family: 'Open Sans';
+  font-size: 18px;
+}
+
+#contact form input, #contact form textarea {
+  border: 3px solid black;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+#contact form input:focus, #contact form textarea:focus {
+  outline: none;
+  border-color: rgba(0, 0, 0, 0.4);
+}
+
+#contact form .submit-wrap {
+  text-align: right;
+}
+
+#contact form [type="submit"] {
+  background: #000;
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  width: 33%;
+}
+
+#contact form textarea {
+  height: 10em;
+}
+
+#contact form .contact-info-group label {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+
+#contact form .contact-info-group label:nth-child(1) {
+  padding-right: 5px;
+}
+
+#contact form .contact-info-group label:nth-child(2) {
+  padding-left: 5px;
+}
+
+#contact form label {
+  display: block;
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+#contact form label span {
+  display: block;
 }
 
 * {
